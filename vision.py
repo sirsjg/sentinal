@@ -87,7 +87,7 @@ while True:
             print("Person detected for 3 seconds or more")
             notification_sent = True
             notification_start_time = time.time()
-            print(notification_start_time)
+
             frame_width = int(cap.get(3))
             frame_height = int(cap.get(4))
             size = (frame_width, frame_height)
